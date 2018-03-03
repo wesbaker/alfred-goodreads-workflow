@@ -14,6 +14,19 @@ alfy
       )
   })
   .then(books => {
+    // No results
+    if (books === undefined) {
+      return alfy.output([
+        {
+          title: `No results found for '${alfy.input}'`,
+          subtitle: `Search Goodreads for '${alfy.input}'`,
+          arg: `https://www.goodreads.com/search?q=${encodeURIComponent(
+            alfy.input
+          )}`
+        }
+      ]);
+    }
+
     const items = books.map(book => {
       const { average_rating, best_book } = book;
       // this looks like garbage (and it is), but is necessary thanks to xml2js,

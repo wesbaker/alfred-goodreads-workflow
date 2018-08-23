@@ -28,7 +28,12 @@ alfy
     }
 
     const items = books.map(book => {
-      const { average_rating, best_book } = book;
+      const { best_book } = book;
+      const average_rating =
+        typeof book.average_rating[0] === "object"
+          ? book.average_rating[0]._
+          : book.average_rating[0];
+
       // this looks like garbage (and it is), but is necessary thanks to xml2js,
       // but it beats dealing with XML directly!
       const id = best_book[0].id[0]._;

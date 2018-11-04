@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "alfy": "^0.7.0",
+    "alfy": "^0.8.0",
     "pify": "^4.0.0",
     "xml2js": "^0.4.19"
   },

@@ -22,7 +22,7 @@
   "devDependencies": {
     "eslint": "6.0.1",
     "eslint-config-airbnb-base": "13.2.0",
-    "eslint-plugin-import": "2.18.0"
+    "eslint-plugin-import": "2.18.2"
   },
   "renovate": {
     "extends": ["github>wesbaker/renovate-config"]

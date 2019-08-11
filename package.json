@@ -6,14 +6,18 @@
   "repository": "https://github.com/wesbaker/alfred-goodreads-workflow",
   "scripts": {
     "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup",
+    "test": "eslint *.js"
   },
   "author": {
     "name": "Wes Baker",
     "email": "wes@wesbaker.com",
-    "url": "wesbaker.com"
+    "url": "https://www.wesbaker.com"
   },
   "license": "MIT",
+  "engines": {
+    "node": "10.16.0"
+  },
   "dependencies": {
     "alfy": "^0.9.0",
     "pify": "^4.0.0",
@@ -25,6 +29,8 @@
     "eslint-plugin-import": "2.18.0"
   },
   "renovate": {
-    "extends": ["github>wesbaker/renovate-config"]
+    "extends": [
+      "github>wesbaker/renovate-config"
+    ]
   }
 }

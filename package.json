@@ -26,7 +26,7 @@
   "devDependencies": {
     "eslint": "7.3.1",
     "eslint-config-airbnb-base": "14.2.0",
-    "eslint-plugin-import": "2.21.2"
+    "eslint-plugin-import": "2.22.0"
   },
   "renovate": {
     "extends": [

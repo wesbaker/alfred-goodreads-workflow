@@ -1,6 +1,6 @@
 {
   "name": "alfred-goodreads-workflow",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Alfred Workflow for searching Goodreads",
   "main": "index.js",
   "repository": "https://github.com/wesbaker/alfred-goodreads-workflow",

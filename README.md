@@ -11,7 +11,7 @@ projects.
 $ npm install --global alfred-goodreads-workflow
 ```
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+_Requires [Node.js](https://nodejs.org) 14+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/)._
 
 ## Usage
 

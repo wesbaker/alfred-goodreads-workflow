@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "10.23.1"
+    "node": ">= 14.0.0"
   },
   "dependencies": {
     "alfy": "^0.12.0",

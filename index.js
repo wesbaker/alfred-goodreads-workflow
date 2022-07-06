@@ -6,7 +6,7 @@ const parseString = pify(xml2js.parseString);
 
 alfy
   .fetch("https://www.goodreads.com/search/index.xml", {
-    query: { q: alfy.input, key: "YVABuJSFNNFq65uTzRA8Nw" },
+    searchParams: { q: alfy.input, key: "YVABuJSFNNFq65uTzRA8Nw" },
     json: false,
     transform: body =>
       parseString(body).then(

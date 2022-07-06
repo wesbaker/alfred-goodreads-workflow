@@ -4,6 +4,6 @@
     "sourceType": "module"
   },
   "extends": [
-    "plugin:prettier/recommended"
+    "eslint:recommended"
   ]
 }

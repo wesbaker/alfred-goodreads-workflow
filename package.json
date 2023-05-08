@@ -21,7 +21,7 @@
   "dependencies": {
     "alfy": "^1.0.0",
     "pify": "^6.0.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.5.0"
   },
   "devDependencies": {
     "eslint": "8.40.0",
